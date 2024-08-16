@@ -1,0 +1,36 @@
+{
+  "name": "storage88",
+  "version": "1.0.0",
+  "description": "Storage88 - Secure Storage System via Discord",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "atomkern",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@hapi/hapi": "^21.3.2",
+    "@hapi/inert": "^7.1.0",
+    "@koa/router": "^12.0.1",
+    "axios": "^1.6.2",
+    "bottleneck": "^2.19.5",
+    "dotenv": "^16.4.5",
+    "got": "^14.0.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "mongoose": "^8.0.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/got": "^9.6.12",
+    "@types/koa": "^2.13.12",
+    "@types/koa-bodyparser": "^4.3.12",
+    "@types/koa-router": "^7.4.8",
+    "@types/mongoose": "^5.11.97",
+    "@types/uuid": "^9.0.7"
+  }
+}
