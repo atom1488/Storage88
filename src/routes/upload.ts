@@ -32,7 +32,7 @@ export const uploadRoute: Hapi.ServerRoute = {
 
       file.filename = encryptFilename(file.filename);
 
-      const maxChunkSize = 25 * 1024 * 1024 - 1;
+      const maxChunkSize = 10 * 1024 * 1024 - 1;
       const chunkSize = Math.min(
         maxChunkSize,
         estimateEncryptedSize(file.payload)
